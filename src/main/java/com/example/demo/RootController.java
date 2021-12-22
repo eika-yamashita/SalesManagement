@@ -12,4 +12,9 @@ public class RootController {
 	
 	}
 	
+	@RequestMapping("/login")
+	public String login() {
+		return "login";
+	
+	}
 }
