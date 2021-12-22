@@ -17,4 +17,10 @@ public class RootController {
 		return "login";
 	
 	}
+	
+	@RequestMapping("/logout")
+	public String logout() {
+		return "logout";
+	
+	}
 }
